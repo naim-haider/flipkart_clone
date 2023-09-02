@@ -1,0 +1,57 @@
+.loginT_first{
+    display: flex;
+    font-size: 10px;
+    justify-content: space-between;
+    width: 200px;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 12px;
+}
+
+.loginT_first> .newcustomer{
+    color:#2874f0;
+    text-decoration: none;
+}
+.loginT_first> .newcustomer:hover{
+    color: red;
+}
+
+
+.loginT_first> .signIn{
+    color:#2874f0;
+    text-decoration: none;
+}
+.loginT_first> .signIn:hover{
+    color: red !important;
+}
+
+.loginT_in{
+    display: flex;
+    padding: 0px 7px;
+    font-family: sans-serif;
+}
+
+.loginT_in>.MuiSvgIcon-root{
+    margin-right: 10px;
+    color: #2874f0;
+} 
+
+.loginT_in>img{
+    margin-right: 10px;
+    width: 23px;
+    height: 23px;
+}
+
+.loginT>hr{
+    margin-left: -10px;
+    margin-top: 0px;
+    width: 108%;
+    height: 0.5px;
+    background-color: rgb(177, 169, 169);
+    border: none;
+}
+
+.loginT_in:hover{
+    background-color: rgb(245, 243, 243);
+    cursor: pointer;
+}

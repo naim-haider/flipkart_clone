@@ -1,0 +1,31 @@
+.moreT_in{
+    display: flex;
+    padding: 0px 7px;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+.moreT_in >.MuiSvgIcon-root{
+    margin-right: 10px;
+    color: #2874f0;
+}
+
+.moreT_in>img{
+    margin-right: 10px;
+    width: 23px;
+}
+
+.moreT>hr{
+    margin-left: -10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 108%;
+    height: 0.5px;
+    background-color: rgb(177, 169, 169);
+    border: none;
+}
+
+.moreT_in:hover{
+    background-color: rgb(245, 243, 243);
+    cursor: pointer;
+}
